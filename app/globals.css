@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer components {
+  body{
+    @apply bg-gray-200
+  }
+  .inpt{
+    @apply mx-4 pl-2 border border-gray-200 rounded-lg
+    my-2 text-base py-3
+  }
+}
